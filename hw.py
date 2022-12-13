@@ -29,7 +29,7 @@ class Lecturer(Mentor):
 
     def average_rate_lecturer(self):
         for key, value in cool_lecturer.grades:
-        return
+            return
 
     def __str__(self):
         res = f'Имя: {cool_lecturer.name}\nФамилия: {cool_lecturer.surname}\nСредняя оценка за лекцию:{Lecturer.average_rate_lecturer(cool_lecturer)}'
